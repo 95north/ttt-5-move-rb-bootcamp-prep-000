@@ -16,7 +16,7 @@ end
 #the index of the board array (0-8). 
 #Part of  #move-  updating the board Array passed into it.
 
-def input_to_index(position)
+def input_to_index(input)
   position = gets.to_i
 
   position = position - 1
