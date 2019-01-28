@@ -34,7 +34,7 @@ def move(array, index, value = "X" )
   
   
   
-  def update_array_at_with(array, index, value = "X" )
+  def update_array_at_with(array, index, value = "X" )   # was value = "X" @ 857
     
     array[index] = value
   end
