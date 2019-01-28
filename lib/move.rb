@@ -20,7 +20,7 @@ def input_to_index(position)
   position = gets.to_i
 
   position = position - 1
-  
+  return position
   
 end
 
