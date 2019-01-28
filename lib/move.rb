@@ -29,7 +29,7 @@ end
 
 #move method represents a user moving into a position
 
-def move(array, index, value)
+def move(array, index, value = "X")
   
   
   
