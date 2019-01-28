@@ -23,5 +23,5 @@ index = input_to_index(input)
 
 move(board, index, "X")
 
-display_board()
+display_board(board)   # @ 9.15 pm did not have an argument
 
