@@ -17,9 +17,9 @@ end
 #Part of  #move-  updating the board Array passed into it.
 
 def input_to_index(input)
-  position = gets.to_i
+  position = input.to_i - 1
 
-  position = position - 1
+  # position = position - 1
   return position
   
 end
