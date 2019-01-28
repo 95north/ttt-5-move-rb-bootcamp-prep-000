@@ -29,18 +29,18 @@ end
 
 #move method represents a user moving into a position
 
-def move(array, index, value = "X")
+def move(array, index, value = "X" )
   
   
   
   
-  def update_array_at_with(array, index, value = "X")
+  def update_array_at_with(array, index, value = "X" )
     
     array[index] = value
   end
   
   
-  update_array_at_with
+  update_array_at_with(array, index, value = "X" )
   return board
   
 end
