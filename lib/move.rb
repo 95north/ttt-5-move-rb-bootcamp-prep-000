@@ -40,7 +40,7 @@ def move(array, index, value = "X" )
   end
   
   
-  update_array_at_with(array, index, value = "X" )   
+  update_array_at_with(array, index, value)   
   # before 854 did not have any arguments
   return array     # was return board, threw off the 3rd argument optional test..
   
