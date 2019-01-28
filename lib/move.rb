@@ -18,7 +18,7 @@ end
 
 def input_to_index(position)
   position = gets.to_i
-  puts "position = gets.to_i  is " + gets.to_i
+
   position = position - 1
   
   
