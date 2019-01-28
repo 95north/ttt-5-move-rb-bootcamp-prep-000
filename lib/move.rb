@@ -40,7 +40,8 @@ def move(array, index, value = "X" )
   end
   
   
-  update_array_at_with(array, index, value = "X" )
+  update_array_at_with(array, index, value = "X" )   
+  # before 854 did not have any arguments
   return board
   
 end
