@@ -9,8 +9,10 @@ require_relative '../lib/move.rb'
 #update the board, 
 #and displays the updated board.
 
-puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+puts "Welcome to Tic Tac Toe!"
+
 
 puts "Where would you like to go?"
 
