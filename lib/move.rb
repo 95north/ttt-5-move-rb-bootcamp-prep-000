@@ -27,7 +27,7 @@ end
 
 #move method represents a user moving into a position
 
-def move(board_array, move_index, char)
+def move(board, index, "X")
   
   
   
